@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kai815/webpack-crash-course#readme",
   "devDependencies": {
     "live-server": "^1.2.1",
+    "lodash": "^4.17.15",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9"
   }
