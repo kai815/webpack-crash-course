@@ -18,6 +18,18 @@ module.exports = {
             'css-loader',
           ]
         },
+        {
+          test:/\.scss$/,
+          use:[
+            //順番重要
+            // styleに埋め込む
+            'style-loader',
+            //cssを読み取る
+            'css-loader',
+            //scssファイルをコンパイル
+            'sass-loader'
+          ]
+        },
         { 
           test:/\.(jpe?g|png|gif|svg|ico)$/i,
           loader: 'url-loader',
