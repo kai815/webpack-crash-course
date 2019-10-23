@@ -1,6 +1,7 @@
 import _ from 'lodash'
 //スタイルのimportは下記の書き方で問題ない
 import './style.css'
+import './style.scss'
 import logo from './logo.png'
 
 console.log(logo);
