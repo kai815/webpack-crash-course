@@ -1,19 +1,7 @@
-import _ from 'lodash'
-//スタイルのimportは下記の書き方で問題ない
-import './style.css'
-import './style.scss'
-import logo from './logo.png'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-console.log(logo);
-function component() {
-    const element = document.createElement('div');
-    const array = ["Hello", "webpack", "!!!"];
-    element.innerHTML = _.join(array, " ")
-    return element;
-}
-document.body.appendChild(component());
-document.body.classList.add('haikei')
-
-const image = new Image()
-image.src = logo
-document.body.appendChild(image);
+ReactDOM.render(
+    <div>Hellw, React!!</div>,
+    document.getElementById('root')
+)
